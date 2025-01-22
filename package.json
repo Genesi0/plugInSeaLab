@@ -1,0 +1,21 @@
+{
+  "name": "pluginsealab",
+  "version": "1.5.1",
+  "description": "A plugin for the SeaLab project (mainly to shutdown the Raspberry  with a user friendly ui)",
+  "main": "index.js",
+  "keywords": [
+    "signalk-webapp",
+    "signalk-node-server-plugin",
+    "signal k",
+    "signalk"
+  ],
+  "signalk-plugin-enabled-by-default": true,
+  "signalk": {
+    "displayName": "SeaLab Plugin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PT5-Eq2",
+  "license": "MIT"
+}
