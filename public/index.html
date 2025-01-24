@@ -6,21 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SeaLab</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
 </head>
 
 <body>
     <h1>Page de configuration SeaLab</h1>
     <div id="mainDiv">
         Cette page sert à effectuer les actions nécessaire au bon fonctionnement du Raspberry.
-        <div>
-            <a href='http://10.10.10.1:3000/plugins/pluginsealab/shutdown'> Eteindre la Raspberry</a>
-        </div>
-        <div>
-            <a href='http://10.10.10.1:3000/plugins/pluginsealab/newFile'> Changer de fichier</a>
-        </div>
+        <a href='http://10.10.10.1:3000/plugins/pluginsealab/shutdown'> Eteindre la Raspberry</a>
+        <a href='http://10.10.10.1:3000/plugins/pluginsealab/newFile'> Changer de fichier</a>
+        <a href='http://10.10.10.1:3000/plugins/pluginsealab/dlLast'> Télécharger le dernier fichier de log</a>
     </div>
 
-<footer> PT5-Eq2 2024-2025</footer>
+    <footer> PT5-Eq2 2024-2025</footer>
 </body>
 
 </html>

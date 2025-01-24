@@ -1,6 +1,6 @@
 {
   "name": "pluginsealab",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "A plugin for the SeaLab project (mainly to shutdown the Raspberry  with a user friendly ui)",
   "main": "index.js",
   "keywords": [
